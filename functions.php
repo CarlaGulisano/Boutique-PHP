@@ -1,5 +1,6 @@
 <?php 
 // Fonctions pour mes articles 
+// Dans les "echo" j’affiche chaque noms, prix et images
 function displayItem1(){
     $nom = "IPhone SE";
     $prix = "489€";
@@ -21,7 +22,7 @@ function displayItem3(){
     echo $nom ; echo $prix ; echo $img;
 }
 
-// Fonction 
+// Fonction avec paramètres 
 function displayItem($nom, $prix, $img){
     echo "<h2>" . $nom . "</h2>" ;
     echo "<h3>" . $prix . "</h3>";
