@@ -4,10 +4,8 @@
 <!-- Titre -->
 <h1>Catalogue</h1>
 
-<!-- Tableau + sous tableaux. Boucle foreach pour affichage simplifié -->
-<!-- Dans les "echo" j’affiche chaque noms, prix et images de sous tableaux-->
-<!-- Concatener H2 et H3 avec "echo", pour mise en page plus jolie -->
 
+<!-- Include pour appeler ma page functions.php -->
 <?php
 include("functions.php");
 $catalogue = [
